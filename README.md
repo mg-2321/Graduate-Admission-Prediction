@@ -18,54 +18,51 @@ Logistic Regression Recall: 0.923
 
 
 
-Decision Tree
+Decision Tree(with all parameters)
 
-Decision Tree Accuracy: 0.931
+Decision Tree Accuracy: 0.620
 
-Decision Tree F1-Score: 0.898
+Decision Tree(with 3 parameters)
 
-Decision Tree Precision: 0.957
+Decision Tree Accuracy: 0.940
 
-Decision Tree Recall: 0.846
+Decision Tree F1-Score: 0.880
+
+Decision Tree Precision: 0.880
+
+Decision Tree Recall: 0.880
 
 
 
 
-Random Forest
+Random Forest(with all parameters)
 
-Random Forest Accuracy: 0.958
+Random Forest Accuracy: 0.825
 
-Random Forest F1-Score: 0.939
 
-Random Forest Precision: 1.000
+Random Forest(with 3 parameters)
 
-Random Forest Recall: 0.885
+Random Forest Accuracy: 0.930
+
+Random Forest F1-Score: 0.863
+
+Random Forest Precision: 0.846
+
+Random Forest Recall: 0.880
   
   
   
 
-SVM
+SVM(with 3 parameters)
 
-SVM Accuracy: 0.958
+SVM Accuracy: 0.950
 
-SVM F1-Score: 0.941
+SVM F1-Score: 0.898
 
-SVM Precision: 0.960
+SVM Precision: 0.917
 
-SVM Recall: 0.923
+SVM Recall: 0.880
 
-
-
-
-KNN
-
-KNN Accuracy: 0.917
-
-KNN F1-Score: 0.870
-
-KNN Precision: 1.000
-
-KNN Recall: 0.769
 
 
 
@@ -75,36 +72,31 @@ Naive Bayes
 
 Gaussian
 
-Naive Bayes accuracy: 0.943966
+Naive Bayes accuracy: 0.920000
 
-Naive Bayes F1: 0.866346
+Naive Bayes F1: 0.833622
 
-Naive Bayes precision: 0.830379
+Naive Bayes precision: 0.810707
 
-Naive Bayes recall: 0.923333
+Naive Bayes recall: 0.864413
 
 
 
 Bernoulli
 
-Naive Bayes accuracy: 0.905049
+Naive Bayes accuracy: 0.900000
 
-Naive Bayes F1: 0.801553
+Naive Bayes F1: 0.818691
 
-Naive Bayes precision: 0.694921
+Naive Bayes precision: 0.736826
 
-Naive Bayes recall: 0.970833
+Naive Bayes recall: 0.931197
 
 
 
 
 ANN
 
-ANN Accuracy: 0.917
+ANN Accuracy: 0.879
 
-ANN F1-Score: 0.870
-
-ANN Precision: 1.000
-
-ANN Recall: 0.769
 
