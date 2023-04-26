@@ -1,0 +1,50 @@
+from sklearn import svm
+clf = svm.SVR(gamma='auto')
+clf.fit(x_train, y_train)
+label=[]
+accuracy=[]
+label.append('SVR')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+from sklearn import linear_model
+clf = linear_model.Ridge(alpha=.5)
+clf.fit(x_train, y_train)
+label.append('Ridge')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+clf = linear_model.RidgeCV(alphas=[0.1, 1.0, 10.0], cv=3)
+clf.fit(x_train, y_train)
+label.append('RidgeCV')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+clf = linear_model.BayesianRidge()
+clf.fit(x_train, y_train)
+label.append('BayesianRidge')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+clf = linear_model.ARDRegression()
+clf.fit(x_train, y_train)
+label.append('ARDRegression')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+clf = linear_model.TheilSenRegressor()
+clf.fit(x_train, y_train)
+label.append('TheilSenRegressor')
+accuracy.append(clf.score(x_test, y_test))
+print(clf.score(x_test, y_test))
+clf.predict(x_test[10:20])
+y_test[15:25]
+import matplotlib.pyplot as plt
+import numpy as np
+index = np.arange(len(label))
+def plot_bar_x():
+    # this is for plotting purpose
+    index = np.arange(len(label))
+    plt.bar(index, accuracy)
+    plt.xlabel('Model', fontsize=10)
+    plt.ylabel('Accuracy', fontsize=10)
+    plt.xticks(index, label, fontsize=10, rotation=90)
+    plt.title('Accuracy of different models')
+    plt.savefig("model_accuracy.png")
+    plt.show()
+plot_bar_x()
