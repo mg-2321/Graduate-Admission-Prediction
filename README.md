@@ -1,7 +1,7 @@
 # Graduate-Admission-Prediction
 
 GRADUATE ADMISSION PREDICTION
-The project aims to overcome 
+
 
 RESULTS
 
