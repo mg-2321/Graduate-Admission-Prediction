@@ -5,6 +5,7 @@ GRADUATE ADMISSION PREDICTION
 RESULTS
 
 |Algorithms used    | Accuracy | Precision | Recall | F1- Score |
+|-------------------|----------|-----------|--------|-----------|
 |Logistic Regression| 0.958    | 0.960     | 0.923  | 0.941     |
 |Decision Tree      | 0.620    | 0.880     | 0.880  | 0.880     |
 |Random Forest      | 0.820    | 0.846     | 0.880  | 0.863     |
