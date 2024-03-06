@@ -1,6 +1,7 @@
 # Graduate-Admission-Prediction
 
 GRADUATE ADMISSION PREDICTION
+The project aims to overcome 
 
 RESULTS
 
@@ -28,9 +29,5 @@ RESULTS
 
 
 
-
-ANN
-
-ANN Accuracy: 0.879
 
 
